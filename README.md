@@ -4,7 +4,7 @@ This is a simple shell script to Download & install Garnet along with all the so
 
 <ul>
 <li>Download or Clone this repo</li>
-<li>Run the script 'RunMe' with command<ul><li>$ source RunMe.sh</li></ul></li>
+<li>Run the script 'RunMe' with command<ul><li><pre>source RunMe.sh<pre></li></ul></li>
 <li>Sit back and relax</li>
 </ul>
 To test run the below command<br/>
