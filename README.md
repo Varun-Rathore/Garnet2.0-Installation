@@ -8,7 +8,7 @@ This is a simple shell script to Download & install Garnet along with all the so
 <li>Sit back and relax</li>
 </ul>
 To test run the below command<br/>
-$ ./build/NULL/gem5.debug configs/example/garnet_synth_traffic.py  \
+<pre>./build/NULL/gem5.debug configs/example/garnet_synth_traffic.py  \
 --num-cpus=16 \
 --num-dirs=16 \
 --network=garnet2.0 \
@@ -16,4 +16,5 @@ $ ./build/NULL/gem5.debug configs/example/garnet_synth_traffic.py  \
 --mesh-rows=4  \
 --sim-cycles=1000 \
 --synthetic=uniform_random \
---injectionrate=0.01 
+--injectionrate=0.01
+ </pre>
