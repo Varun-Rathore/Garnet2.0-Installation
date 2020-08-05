@@ -5,7 +5,7 @@ This is a simple shell script to Download & install Garnet along with all the so
 <ul>
 <li>Download or Clone this repo</li>
 <li>Run the script 'RunMe' with command<ul><li><pre>source RunMe.sh</pre></li></ul></li>
-<li>Sit back and relax</li>
+<li>Sit back and relax (Might take 1-2 hrs)</li>
 </ul>
 To test run the below command<br/>
 <pre>./build/NULL/gem5.debug configs/example/garnet_synth_traffic.py  \
