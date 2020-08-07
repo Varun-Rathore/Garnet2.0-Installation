@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo apt update -y
-sudo apt upgrade -y
 sudo apt install -y g++ python3 python3-dev python-six scons swig m4 protobuf-compiler libgoogle-perftools-dev
 sudo rm -rf /home/$USER/gem5/
 git -C /home/$USER/ clone https://gem5.googlesource.com/public/gem5
