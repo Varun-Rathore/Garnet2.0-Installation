@@ -14,4 +14,4 @@ sudo cp -f ./FileSystemConfig.py /home/$USER/gem5/configs/common/FileSystemConfi
 sudo cp -f ./convert.py /home/$USER/gem5/build/NULL/python/m5/util/convert.py
 cd ~
 cd gem5/
-scons build/NULL/gem5.debug PROTOCOL=Garnet_standalone
+scons build/NULL/gem5.opt PROTOCOL=Garnet_standalone
