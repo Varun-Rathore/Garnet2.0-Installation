@@ -8,10 +8,10 @@ sudo cp -f ./convert.py /home/$USER/gem5/build/NULL/python/m5/util/convert.py
 x_dir=$(pwd)
 cd ~
 cd gem5/
-scons build/NULL/gem5.opt PROTOCOL=Garnet_standalone
+scons build/NULL/gem5.opt PROTOCOL=Garnet_standalone -j 9
 cd $x_dir
 sudo cp -f ./FileSystemConfig.py /home/$USER/gem5/configs/common/FileSystemConfig.py
 sudo cp -f ./convert.py /home/$USER/gem5/build/NULL/python/m5/util/convert.py
 cd ~
 cd gem5/
-scons build/NULL/gem5.opt PROTOCOL=Garnet_standalone
+scons build/NULL/gem5.opt PROTOCOL=Garnet_standalone -j 9
